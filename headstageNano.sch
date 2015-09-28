@@ -6038,7 +6038,6 @@ Metric Code Size 5664</description>
 <part name="C_VDD" library="resistor" deviceset="C-US" device="C0402K" value="10uF"/>
 <part name="C_REF" library="resistor" deviceset="C-US" device="C0402K" value="0.1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -6065,7 +6064,6 @@ Metric Code Size 5664</description>
 <instance part="C_VDD" gate="G$1" x="27.94" y="-66.04" rot="R90"/>
 <instance part="C_REF" gate="G$1" x="43.18" y="-33.02" rot="R90"/>
 <instance part="GND1" gate="1" x="45.72" y="-2.54" rot="R90"/>
-<instance part="GND2" gate="1" x="40.64" y="0" rot="R90"/>
 <instance part="VDD1" gate="G$1" x="53.34" y="-7.62" rot="R270"/>
 <instance part="VDD2" gate="G$1" x="40.64" y="-66.04" rot="R270"/>
 <instance part="GND3" gate="1" x="20.32" y="-66.04" rot="R270"/>
@@ -6128,11 +6126,6 @@ Metric Code Size 5664</description>
 <pinref part="C_REF" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="-33.02" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U1" gate="A" pin="ELEC_TEST"/>
-<wire x1="33.02" y1="0" x2="38.1" y2="0" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="S3" gate="A" pin="T18"/>
