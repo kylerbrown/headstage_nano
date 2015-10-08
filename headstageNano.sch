@@ -6035,8 +6035,8 @@ Metric Code Size 5664</description>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0402" value="100"/>
 <part name="R2" library="resistor" deviceset="R-EU_" device="R0402" value="100"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0402" value="100"/>
-<part name="C_VDD" library="resistor" deviceset="C-US" device="C0402K" value="10uF"/>
-<part name="C_REF" library="resistor" deviceset="C-US" device="C0402K" value="0.1uF"/>
+<part name="C_VDD" library="resistor" deviceset="C-US" device="C0402K" value="100 nF"/>
+<part name="C_REF" library="resistor" deviceset="C-US" device="C0402K" value="10 nF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
